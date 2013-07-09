@@ -2,20 +2,9 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
-app.get('/', function(request, response) 
-{
-  var fs = require('fs');
-  var buffer = new buffer();
-    
-    response.send('Hello World 2!' {
-  console.log("Listening on " + port);
-});
-var express = require('express');
-var app = express.createServer(express.logger());
-
 app.get('/', function(request, response) {
 var fs = require('fs');
-var buffer = new buffer ();
+var buffer = new Buffer ();
   response.send(buffer.toString('utc 8', fs.readFileSync("index.html")))});
  });
 
